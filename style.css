@@ -1,0 +1,49 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+
+}
+*{
+    text-align: center;
+    font-family: 'Outfit';
+}
+body {
+    background-color: var(--Lightgray);
+}
+p {
+    font-size: 10px;
+    padding: 0 14px;
+    color: var(--Grayishblue);
+}
+h1 {
+    font-size: 15px;
+    padding: 0 14px;
+}
+.card-itself {
+    margin: auto;
+background-color: white;
+width: 200px;
+height: 315px;
+border-radius: 10px;
+padding: 10px;
+}
+/* HEADER */
+header .QRcode-img {
+    background-image: url(/images/image-qr-code.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+}
+/* MAIN */
+main .inner-text {
+    padding: 0 14px;
+
+
+}
+/* FOOTER */
+
+.attribution { padding-top: 15px;font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
